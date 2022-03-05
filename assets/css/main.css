@@ -2188,10 +2188,10 @@ input, select, textarea {
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
-
+		/*Alex.panel*/
 		.panel > * {
 			position: relative;
-			opacity: 90%;
+			opacity: 95%;
 			min-width: 10rem;
 		}
 
@@ -2731,6 +2731,12 @@ input, select, textarea {
 
 		.panel.color4 {
 			background-image: url("../../images/overlay.png"), linear-gradient(to right,#af026c, #af026c);
+			background-size: 128px 128px, auto;
+			opacity: 90%;
+		}
+
+		.panel.color5 {
+			background-image: url("../../images/overlay.png"), linear-gradient(to right,#2e2c2a , #2e2c2a );
 			background-size: 128px 128px, auto;
 			opacity: 90%;
 		}
@@ -3546,7 +3552,7 @@ input, select, textarea {
 		transition-delay: 0.25s;
 		cursor: default;
 		position: relative;
-		height: 40rem;
+		height: 42rem;
 		box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
 	}
 
